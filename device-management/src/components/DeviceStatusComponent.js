@@ -101,7 +101,7 @@ const DeviceStatusComponent = (props) => {
     return (
         <div style={{ height: 400, width: '100%' }}>
           <DataGrid sx={{ 
-            m: 10,
+            m: 5,
             borderRadius: 3, 
           }}
             editMode="row"

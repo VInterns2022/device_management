@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  device-management:
+    build: ./device-management
+    container_name: dev_management_container
+    ports:
+      - '3000:3000'
+    stdin_open: true
+    tty: true 
